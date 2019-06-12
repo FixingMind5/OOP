@@ -1,5 +1,7 @@
 <?php
 
+require_once('Account.php');
+
 class Car {
   public $id;
   public $license;
@@ -12,7 +14,7 @@ class Car {
   }
 
   public function print_data_car() {
-    print "License: $this->license, Name: $this->driver->name, Document: $this->driver->document";
+    print "License: $this->license, Name: " .$this->driver->name ", Document: " $this->driver->document ;
   }
 }
 
