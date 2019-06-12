@@ -1,3 +1,3 @@
-var car = new Car("AMH345", new Account("Andrés Herrera", "NDA53"));
+var uberBlack = new UberBlack("AND3245", new Account("Andrés Herrera", "NOE32"), "Mercedes Benz", "2019");
 
-car.print_data_car();
+uberBlack.print_data_car()
