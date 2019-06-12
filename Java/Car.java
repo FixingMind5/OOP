@@ -14,7 +14,7 @@ class Car {
   }
 
   public Integer get_passenger() {
-    return  passenger;
+    return passenger;
   }
 
   public void set_passenger(Integer passenger) {
