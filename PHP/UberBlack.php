@@ -1,4 +1,7 @@
 <?php
+
+require_once("Car.php");
+
 class UberBlack extends Car {
   public $typeCar;
   public $seatsMaterial;
@@ -10,4 +13,5 @@ class UberBlack extends Car {
     $this->seatsMaterial = $seatsMaterial;
   }
 }
+
 ?>

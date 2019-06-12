@@ -1,4 +1,7 @@
 <?php
+
+require_one("Car.php")
+
 class UberPool extends Car {
   public $brand;
   public $model;
