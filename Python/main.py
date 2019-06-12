@@ -3,6 +3,7 @@ from account import Account
 from uberBlack import UberBlack
 from payment import Payment
 from card import Card
+from driver import Driver
 
 if __name__ == '__main__':
     print("Hello world!")
@@ -17,5 +18,7 @@ if __name__ == '__main__':
 
     newCard = Card("01", "4554-8584-02834-2837", "344", "2032-05-03")
     newCard.print_data_card()
+
+    newDriver = Driver("Manu Aguilar", "ADMN4523")
 
     # print(vars(car)) Con esto podemos imprimir todo lo que esté dentro de esa varible
